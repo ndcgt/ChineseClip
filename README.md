@@ -72,11 +72,9 @@ Chinese-CLIP/
 pip install -r requirements.txt
 ```
 
-> GPU 用户可将 `faiss-cpu` 替换为 `faiss-gpu`、`onnxruntime` 替换为 `onnxruntime-gpu`。
-
 ### 2. 配置密钥
 
-复制 `.env.example` 为 `.env`，并填入真实值：
+并填入真实值：
 
 ```bash
 cp .env.example .env
