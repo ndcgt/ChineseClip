@@ -74,7 +74,7 @@ pip install -r requirements.txt
 
 ### 2. 配置密钥
 
-并填入真实值：
+填入真实值：
 
 ```bash
 cp .env.example .env
