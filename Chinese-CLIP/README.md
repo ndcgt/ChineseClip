@@ -90,8 +90,6 @@ cp .env.example .env
 | `DEEPSEEK_BASE_URL` | 接口地址，默认 `https://api.deepseek.com` |
 | `MYSQL_HOST` / `MYSQL_USER` / `MYSQL_PASSWORD` / `MYSQL_DATABASE` | MySQL 连接信息 |
 
-> ⚠️ 请勿将 `.env` 提交到 Git（已在 `.gitignore` 中排除）。
-
 ### 3. 启动 Web 应用
 
 ```bash
