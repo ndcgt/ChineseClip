@@ -167,7 +167,7 @@ python cn_clip/eval/evaluation.py \
 ```
 
 
-**MUGE Validation Set Evaluation Results (Fine-tuned ViT-B-16):**：
+**MUGE Validation Set Evaluation Results (Fine-tuned ViT-B-16)**：
 
 | Task | R@1 | R@5 | R@10 | mean recall |
 | --- | --- | --- | --- | --- |
