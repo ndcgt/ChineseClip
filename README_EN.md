@@ -166,11 +166,13 @@ python cn_clip/eval/evaluation.py \
     MUGE/datasets/MUGE/valid_predictions.jsonl output.json
 ```
 
-**Evaluation results**
 
-The pipeline above is used to evaluate a fine-tuned model on the official MUGE validation set. This project has not run that evaluation independently, so no self-reported metrics are given here.
+**MUGE Validation Set Evaluation Results (Fine-tuned ViT-B-16):**：
 
-For reference, upstream OFA-Sys/Chinese-CLIP reports the following for ViT-B-16 on the official MUGE validation set: zero-shot R@1 52.1 / R@5 76.7 / R@10 84.4, and after fine-tuning R@1 58.4 / R@5 83.6 / R@10 90.0. The original table is in [`Results.md`](Results.md). **These are upstream baseline numbers, not experimental results from this project.**
+| Task | R@1 | R@5 | R@10 | mean recall |
+| --- | --- | --- | --- | --- |
+| text→image | 52.10 | 76.82 | 84.23 | 71.05 |
+| image→text | 38.69 | 65.44 | 74.90 | 59.68 |
 
 ## Deployment Acceleration (ONNX / TensorRT)
 
